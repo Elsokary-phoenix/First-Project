@@ -1,0 +1,144 @@
+/* start main rulez*/
+
+body{
+height: 4000px;
+}
+
+/* End main rulez*/
+
+/* start container*/
+
+.container
+{
+    width: 780px;
+    margin: auto;
+}
+
+/* start Header*/
+.header .slider
+{
+    height: 500px;
+    background-image: url("../images/bg1.svg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.header .slider .container h1 
+{
+   color: white; 
+   margin-top: 210px;
+   margin-left: 220px;
+}
+.header .nav
+{
+    background-color: #252f31;
+    color:#fff;
+    overflow: hidden;
+    height: 60px;
+}
+.header .nav h2
+{
+ float: left; text-transform: uppercase;
+}
+.header .nav h2 span
+{
+    color: rgb(31, 168, 49);
+}
+.header .nav ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .nav ul li
+{
+    float: left;
+    padding: 10px;   
+}
+
+/* End Header*/
+
+/* start features*/
+.features
+{
+  overflow: hidden;
+}
+.features .container .feet
+{
+   width: 30.7%;
+   margin: 10px;
+   margin-top: 80px;
+   float: left;
+   margin-bottom: 100px;
+
+}
+/* End features*/
+
+/* start about me*/
+.aboutme
+{
+  background-color: #e7e7e7;
+  overflow:hidden;
+}
+.aboutme .image
+{
+    float:left;
+    width: 35%;
+}
+.aboutme .image img
+{
+    width: 100%;
+}
+.aboutme .info
+{
+    float: right;
+    width:60%;
+}
+.aboutme .info .hobbies
+{
+  overflow: hidden;
+  margin: 20px;
+}
+.aboutme .info .hobbies > div
+{
+    float: left;
+    width:50%;
+    min-height: 100px;
+}
+/* end about me*/
+
+/* start of my skils */
+
+.my-skils
+{
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.my-skils .skils
+{
+    float: left;
+    width: 55%;
+    margin-top: 10px;
+}
+.my-skils .prog
+{
+    float: right;
+    width: 40%;
+    margin-top: 25px;
+}
+.my-skils .prog h3
+{
+    text-transform: uppercase;
+}
+.my-skils .prog progress
+{
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+
+
+
+/* end of my skils */
